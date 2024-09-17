@@ -1,23 +1,49 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Delicious Burgers</title>
+    <title>Arsonue's Burgers</title>
     <style>
-        body {
+        .container {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 5px;
+}
+.hero-image {
+    width: 100%;
+    height: auto;
+    max-height: 600px; /* Adjust this value as needed */
+    object-fit: cover;
+
+}
+body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
+            box-sizing: border-box;
+            background: #690000;
         }
         header {
-            background-color: #333;
-            color: #fff;
-            padding: 1em 0;
+            background: #000000;
+            color: white;
+            padding: 10px 0;
             text-align: center;
         }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
         .container {
             width: 80%;
             margin: 0 auto;
@@ -25,13 +51,13 @@
         }
         .main-content {
             padding: 20px;
-            background: #fff;
+            background: #ffffff;
             margin-top: 20px;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 10px rgba(158, 13, 13, 0.1);
         }
         h1, h2 {
-            color: #333;
+            color: #b80000;
         }
         .burger-image {
             max-width: 100%;
@@ -42,9 +68,10 @@
             background-color: #333;
             color: #fff;
             text-align: center;
-            padding: 1em 0;
+            padding: -20px;
             position: fixed;
             bottom: 0;
+            height: 5%;
             width: 100%;
         }
         .recipe {
@@ -58,22 +85,38 @@
 <body>
     <header>
         <div class="container">
-            <h1>Welcome to Delicious Burgers</h1>
-            <p>Your guide to the best burgers around!</p>
+        <h1>ARSONUE'S BURGER</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+                
+            </ul>
+        </nav>
         </div>
     </header>
+
+       
+            
 
     <div class="container">
         <div class="main-content">
             <section>
+                <video width="900" height="600" controls>
+                    <source src="g:\hamburgur_MARK.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+
                 <h2>Types of Burgers</h2>
-                <img src="C:\Users\PC-32\Desktop\Chickcheck.png" alt="Chicken Burger" class="burger-image">
+                <img src="c:\Users\COLLEGELAB-11\Pictures\MRKCHCK.jpg" alt="Chicken Burger" class="burger-image">
                 <p>The Chicken Burger is a timeless favorite with a juicy chick patty, fresh lettuce, tomato, pickles, and a slice of cheese, all sandwiched between a soft, toasted bun.</p>
                 
-                <img src="C:\Users\PC-32\Desktop\CheesyYummy.png" alt="Cheeseburger" class="burger-image">
+                <img src="c:\Users\COLLEGELAB-11\Pictures\MRKCC.jpg" alt="Cheeseburger" class="burger-image">
                 <p>The Cheeseburger adds an extra layer of indulgence with a slice of melted cheese atop the beef patty, creating a gooey, flavorful experience.</p>
                 
-                <img src="C:\Users\PC-32\Desktop\veGAN buRGER.png" alt="Veggie Burger" class="burger-image">
+                <img src="c:\Users\COLLEGELAB-11\Pictures\MrkV.jpg" alt="Veggie Burger" class="burger-image">
                 <p>The Veggie Burger offers a delicious plant-based alternative for those who prefer vegetables or are looking for a healthier option.</p>
             </section>
 
@@ -81,7 +124,7 @@
                 <h2>Burger Recipes</h2>
                 
                 <div>
-                    <h3>Classic Burger Recipe</h3>
+                    <h3>Chicken Burger Recipe</h3>
                     <ul>
                         <li>Chicken</li>
                         <li>Salt and pepper</li>
@@ -103,12 +146,32 @@
                     </ul>
                     <p>Cook the veggie patties according to package instructions. Assemble on buns with avocado, tomato, and lettuce.</p>
                 </div>
+
+                <div>
+                    <h3>Cheese Burger Recipe</h3>
+                    <ul>
+                        <li>Ground beef</li>
+                        <li>Burger buns</li>
+                        <li>Salt and pepper</li>
+                        <li>Tomato</li>
+                        <li>Cheese</li>
+                    </ul>
+                    <p>Season the ground beef with salt and pepper, then form into patties. Grill the patties until they reach your desired level of doneness. During the last minute of grilling, place a cheese slice on each patty to melt. Assemble the burgers on buns with lettuce, tomato, and pickles.</p>
+                </div>
+                
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
             </section>
+
         </div>
     </div>
 
     <footer>
-        <p>&copy; 2024 Delicious Burgers. All rights reserved.</p>
+        <p>&copy; 2024 Arsonue's Burgers. All rights reserved.</p>
     </footer>
 </body>
 </html>
